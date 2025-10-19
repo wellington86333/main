@@ -100,7 +100,7 @@ export const translations = {
       subtitle: "Cuidando da sua saúde mental com profissionalismo, empatia e confidencialidade total. Psicoterapia online de qualidade para transformar sua vida.",
       services: {
         title: "Serviços",
-        items: ["Psicoterapia Individual", "Terapia de Casal", "Apoio Emocional", "Orientação Profissional"]
+        items: ["Psicoterapia Individual", "Apoio Emocional", "Orientação Profissional"]
       },
       resources: {
         title: "Recursos",
@@ -259,10 +259,10 @@ export const translations = {
     },
     about: {
         title: "About Me",
-        subtitle: "I am Wellington Brito, Clinical Psychologist (CRP 02/15189), specializing in individual sessions based on the psychoanalytic approach. My practice is focused on the comprehensive care of mental health, offering a space for qualified, ethical, and welcoming listening.",
+        subtitle: "I am Wellington Brito, a Clinical Psychologist (CRP 02/15189) specializing in individual sessions based on the psychoanalytic approach. My practice focuses on comprehensive mental health care, offering a space for qualified, ethical, and welcoming listening.",
         missionTitle: "My Commitment to Psychoanalysis",
-        missionText1: "In my practice, I work with psychoanalytic psychotherapy, a process that promotes self-knowledge, the elaboration of internal conflicts, and healing through words. Psychoanalysis allows for an understanding of the origins of psychological suffering, going beyond the immediate relief of symptoms, and enabling profound and lasting transformations in one's way of living and relating.",
-        missionText2: "I treat adults and young people on issues such as anxiety, depression, existential anguish, relationships, self-esteem, grief, stress, and various emotional difficulties. Each session is built as a safe space for the individual to listen to themselves, re-signify experiences, and develop new paths towards a more authentic and balanced life.",
+        missionText1: "In my practice, I use psychoanalytic psychotherapy, a process that promotes self-knowledge, the working through of internal conflicts, and healing through words. Psychoanalysis helps to understand the origins of psychological suffering, going beyond immediate symptom relief and enabling profound, lasting transformations in how one lives and relates to others.",
+        missionText2: "I assist adults and young people with issues such as anxiety, depression, existential dread, relationships, self-esteem, grief, stress, and various emotional difficulties. Each session is a safe space for you to listen to yourself, re-signify experiences, and find new paths toward a more authentic and balanced life.",
         crpTitle: "Psychologist with Active CRP",
         crpText: "Professional and ethical service, following all guidelines of the Federal Council of Psychology.",
         text: "I am Wellington Brito, a clinical psychologist with a background in Psychoanalysis. My work is to offer a space for listening and reflection, helping you deal with emotional issues, internal conflicts, and seek greater self-knowledge. I provide online services on secure and easily accessible platforms.",
@@ -322,7 +322,7 @@ export const translations = {
         subtitle: "Caring for your mental health with professionalism, empathy, and total confidentiality. Quality online psychotherapy to transform your life.",
         services: {
             title: "Services",
-            items: ["Individual Psychotherapy", "Couples Therapy", "Emotional Support", "Career Counseling"]
+            items: ["Individual Psychotherapy", "Emotional Support", "Career Counseling"]
         },
         resources: {
             title: "Resources",
