@@ -106,16 +106,16 @@ export function ServicesSection({ t }: ServicesProps) {
             return (
               <Card
                 key={service.title}
-                className="overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1"
+                className="overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 group"
               >
                 {image && (
-                  <div className="aspect-w-16 aspect-h-9">
+                  <div className="aspect-w-16 aspect-h-9 overflow-hidden">
                     <Image
                       src={image.imageUrl}
                       alt={image.description}
                       width={600}
                       height={400}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                       data-ai-hint={image.imageHint}
                     />
                   </div>

@@ -21,19 +21,19 @@ export function Header({ lang, t }: HeaderProps) {
           <nav className="hidden items-center space-x-6 text-sm font-medium md:flex">
             <Link
               href="#about"
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
+              className="relative text-foreground/60 transition-colors hover:text-foreground/80 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-full after:scale-x-0 after:origin-left after:bg-primary after:transition-transform hover:after:scale-x-100"
             >
               {t.nav_about}
             </Link>
             <Link
               href="#services"
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
+              className="relative text-foreground/60 transition-colors hover:text-foreground/80 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-full after:scale-x-0 after:origin-left after:bg-primary after:transition-transform hover:after:scale-x-100"
             >
               {t.nav_services}
             </Link>
             <Link
               href="#contact"
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
+              className="relative text-foreground/60 transition-colors hover:text-foreground/80 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-full after:scale-x-0 after:origin-left after:bg-primary after:transition-transform hover:after:scale-x-100"
             >
               {t.nav_contact}
             </Link>
