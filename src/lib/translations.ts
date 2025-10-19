@@ -1,3 +1,4 @@
+
 export const translations = {
   pt: {
     header: {
@@ -36,10 +37,10 @@ export const translations = {
     },
     about: {
       title: "Sobre Mim",
-      subtitle: "Sou Wellington Brito, psicólogo clínico com formação baseada na Psicanálise, comprometido com a promoção da saúde mental e o bem-estar integral.",
-      missionTitle: "Meu Compromisso",
-      missionText1: "Meu compromisso é proporcionar um espaço terapêutico seguro, acolhedor e livre de julgamentos, onde você possa explorar suas emoções, superar desafios e desenvolver estratégias para uma vida mais plena e equilibrada.",
-      missionText2: "Utilizo abordagens baseadas em evidências científicas, combinadas com empatia e uma escuta atenta às necessidades únicas de cada paciente.",
+      subtitle: "Sou Wellington Brito, Psicólogo Clínico (CRP 02/15189), especializado em atendimentos individuais e fundamentado na abordagem psicanalítica. Minha atuação é voltada para o cuidado integral da saúde mental, oferecendo um espaço de escuta qualificada, ética e acolhedora.",
+      missionTitle: "Meu Compromisso com a Psicanálise",
+      missionText1: "Na clínica, trabalho com psicoterapia psicanalítica, um processo que promove autoconhecimento, elaboração de conflitos internos e a cura pela palavra. A psicanálise permite compreender as origens do sofrimento psíquico, indo além do alívio imediato de sintomas, e possibilita transformações profundas e duradouras na forma de viver e se relacionar.",
+      missionText2: "Atendo adultos e jovens em questões como ansiedade, depressão, angústia existencial, relacionamentos, autoestima, luto, estresse e dificuldades emocionais diversas. Cada encontro é construído como um espaço seguro para que o sujeito possa se ouvir, ressignificar experiências e desenvolver novos caminhos em direção a uma vida mais autêntica e equilibrada.",
       crpTitle: "Psicólogo com CRP Ativo",
       crpText: "Atendimento profissional e ético, seguindo todas as diretrizes do Conselho Federal de Psicologia.",
       text: "Sou Wellington Brito, psicólogo clínico com formação baseada na Psicanálise. Meu trabalho é oferecer um espaço de escuta e reflexão, ajudando você a lidar com questões emocionais, conflitos internos e a buscar maior autoconhecimento. Atendo de forma online, em plataformas seguras e de fácil acesso.",
@@ -258,10 +259,10 @@ export const translations = {
     },
     about: {
         title: "About Me",
-        subtitle: "I am Wellington Brito, a clinical psychologist with a background in Psychoanalysis, committed to promoting mental health and integral well-being.",
-        missionTitle: "My Commitment",
-        missionText1: "My commitment is to provide a safe, welcoming, and judgment-free therapeutic space where you can explore your emotions, overcome challenges, and develop strategies for a fuller and more balanced life.",
-        missionText2: "I use evidence-based approaches, combined with empathy and an attentive listening to the unique needs of each patient.",
+        subtitle: "I am Wellington Brito, Clinical Psychologist (CRP 02/15189), specializing in individual sessions based on the psychoanalytic approach. My practice is focused on the comprehensive care of mental health, offering a space for qualified, ethical, and welcoming listening.",
+        missionTitle: "My Commitment to Psychoanalysis",
+        missionText1: "In my practice, I work with psychoanalytic psychotherapy, a process that promotes self-knowledge, the elaboration of internal conflicts, and healing through words. Psychoanalysis allows for an understanding of the origins of psychological suffering, going beyond the immediate relief of symptoms, and enabling profound and lasting transformations in one's way of living and relating.",
+        missionText2: "I treat adults and young people on issues such as anxiety, depression, existential anguish, relationships, self-esteem, grief, stress, and various emotional difficulties. Each session is built as a safe space for the individual to listen to themselves, re-signify experiences, and develop new paths towards a more authentic and balanced life.",
         crpTitle: "Psychologist with Active CRP",
         crpText: "Professional and ethical service, following all guidelines of the Federal Council of Psychology.",
         text: "I am Wellington Brito, a clinical psychologist with a background in Psychoanalysis. My work is to offer a space for listening and reflection, helping you deal with emotional issues, internal conflicts, and seek greater self-knowledge. I provide online services on secure and easily accessible platforms.",
