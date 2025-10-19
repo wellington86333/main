@@ -3,7 +3,7 @@
 import React, { useState, useMemo } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { CheckCircle, AlertTriangle, MessageCircle } from 'lucide-react';
+import { CheckCircle, AlertTriangle } from 'lucide-react';
 import type { Translations } from '@/lib/translations';
 
 type TestSectionProps = {
@@ -55,6 +55,10 @@ export function TestSection({ t }: TestSectionProps) {
       return;
     }
     setShowResult(true);
+    const testElement = document.getElementById('test');
+    if (testElement) {
+        testElement.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   const resetTest = () => {
@@ -68,30 +72,34 @@ export function TestSection({ t }: TestSectionProps) {
     <section id="test" className="py-16 sm:py-24">
       <div className="container max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold font-headline sm:text-4xl text-gray-800 mb-4">{t.title}</h2>
-          <p className="text-lg text-gray-600">{t.description}</p>
+            <div className="mt-4 inline-flex items-center space-x-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">
+                <CheckCircle className="w-4 h-4" />
+                <span>{t.badge}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6 font-headline mt-4">{t.title}</h2>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">{t.description}</p>
         </div>
 
         {!showResult ? (
-          <Card className="bg-white/80 backdrop-blur-sm shadow-xl p-6 sm:p-8">
+          <Card className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-8 md:p-12 border border-slate-200/30">
             <CardContent className="p-0">
-              <div className="space-y-8">
+              <div className="space-y-10">
                 {t.questions.map((question, index) => (
-                  <div key={question.id} className="border-b border-gray-200 pb-8 last:border-b-0 last:pb-0">
-                    <div className="flex items-start space-x-4">
-                      <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                        <span className="text-primary font-semibold">{index + 1}</span>
+                  <div key={question.id} className="border-b border-slate-200/30 pb-10 last:border-b-0 last:pb-0">
+                    <div className="flex items-start space-x-6">
+                      <div className="w-10 h-10 bg-indigo-100 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                        <span className="text-indigo-600 font-bold text-lg">{index + 1}</span>
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-lg font-semibold text-gray-800 mb-4">{question.question}</h3>
+                        <h3 className="text-xl font-semibold text-slate-800 mb-6 leading-relaxed">{question.question}</h3>
                         <div className="space-y-3">
                           {question.options.map((option) => (
                             <label
                               key={option.value}
-                              className={`flex items-center p-3 rounded-lg border-2 cursor-pointer transition-all ${
+                              className={`flex items-center p-4 rounded-xl border-2 cursor-pointer transition-all duration-200 ${
                                 answers[question.id] === option.value
-                                  ? 'border-primary bg-primary/5'
-                                  : 'border-gray-200 hover:border-gray-300'
+                                  ? 'border-indigo-500 bg-indigo-50 shadow-md'
+                                  : 'border-slate-200 hover:border-slate-300 hover:bg-slate-50'
                               }`}
                             >
                               <input
@@ -102,16 +110,16 @@ export function TestSection({ t }: TestSectionProps) {
                                 onChange={() => handleAnswerSelect(question.id, option.value)}
                                 className="sr-only"
                               />
-                               <div className={`w-4 h-4 rounded-full border-2 mr-3 flex items-center justify-center ${
+                               <div className={`w-5 h-5 rounded-full border-2 mr-4 flex items-center justify-center ${
                                     answers[question.id] === option.value 
-                                      ? 'border-primary bg-primary' 
-                                      : 'border-gray-300'
+                                      ? 'border-indigo-500 bg-indigo-500' 
+                                      : 'border-slate-300'
                                   }`}>
                                     {answers[question.id] === option.value && (
                                       <div className="w-2 h-2 bg-white rounded-full"></div>
                                     )}
                                   </div>
-                              <span className="text-gray-700">{option.text}</span>
+                              <span className="text-slate-700 font-medium">{option.text}</span>
                             </label>
                           ))}
                         </div>
@@ -120,11 +128,11 @@ export function TestSection({ t }: TestSectionProps) {
                   </div>
                 ))}
               </div>
-              <div className="mt-8 flex justify-center">
+              <div className="mt-12 flex justify-center">
                 <Button
                   onClick={handleTestSubmit}
                   size="lg"
-                  className="bg-gradient-to-r from-primary to-accent text-white"
+                  className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-10 py-4 h-auto rounded-xl font-semibold hover:from-indigo-600 hover:to-purple-700 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105"
                 >
                   {t.submitButton}
                 </Button>
@@ -132,30 +140,33 @@ export function TestSection({ t }: TestSectionProps) {
             </CardContent>
           </Card>
         ) : (
-          <Card className="bg-white/80 backdrop-blur-sm shadow-xl p-8 text-center">
+          <Card className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-8 md:p-12 text-center border border-slate-200/30">
             <CardContent className="p-0">
-              <div className="mb-6">
-                <div className={`w-16 h-16 ${recommendation.bgColor} rounded-full flex items-center justify-center mx-auto mb-4`}>
-                  <RecommendationIcon className={`w-8 h-8 ${recommendation.color}`} />
+               <div className="mb-8">
+                    <div className={`w-20 h-20 ${recommendation.bgColor} rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg`}>
+                      <RecommendationIcon className={`w-10 h-10 ${recommendation.color}`} />
+                    </div>
+                    <h3 className="text-3xl font-bold text-slate-800 mb-4">
+                      {t.resultTitle} <span className={recommendation.color}>{recommendation.level}</span>
+                    </h3>
+                    <p className={`text-xl ${recommendation.color} max-w-2xl mx-auto leading-relaxed`}>
+                      {recommendation.message}
+                    </p>
+                  </div>
+              <div className="space-y-6 max-w-3xl mx-auto">
+                <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200/50">
+                    <p className="text-slate-600 text-lg leading-relaxed">
+                        {t.resultDisclaimer}
+                    </p>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">
-                  {t.resultTitle} {recommendation.level}
-                </h3>
-                <p className={`text-lg ${recommendation.color}`}>
-                  {recommendation.message}
-                </p>
-              </div>
-
-              <div className="space-y-4">
-                <p className="text-gray-600">{t.resultDisclaimer}</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                  <Button asChild className="bg-green-500 hover:bg-green-600 text-white">
-                    <a href="mailto:Wellington.brito@rocketmail.com">
-                      <MessageCircle className="mr-2 h-4 w-4" />
+                  <Button asChild size="lg" className="bg-green-500 hover:bg-green-600 text-white h-auto px-8 py-4 rounded-xl font-semibold flex items-center justify-center space-x-3 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                    <a href="https://wa.me/5581996903004" target="_blank" rel="noopener noreferrer nofollow">
+                      <AlertTriangle className="mr-2 h-4 w-4" />
                       {t.scheduleButton}
                     </a>
                   </Button>
-                  <Button onClick={resetTest} variant="outline">
+                  <Button onClick={resetTest} variant="outline" size="lg" className="bg-white text-slate-700 px-8 py-4 h-auto rounded-xl font-semibold border-2 border-slate-200 hover:border-slate-300 transition-all duration-300 shadow-md hover:shadow-lg">
                     {t.retakeButton}
                   </Button>
                 </div>

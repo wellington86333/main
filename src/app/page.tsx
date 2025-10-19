@@ -3,10 +3,12 @@ import { Footer } from '@/components/layout/footer';
 import { HeroSection } from '@/components/sections/hero';
 import { AboutSection } from '@/components/sections/about';
 import { ServicesSection } from '@/components/sections/services';
-import { SocialValuesSection } from '@/components/sections/social-values';
 import { ContactSection } from '@/components/sections/contact-section';
 import { translations } from '@/lib/translations';
 import { TestSection } from '@/components/sections/test-section';
+import { TrustIndicators } from '@/components/sections/trust-indicators';
+import { FaqSection } from '@/components/sections/faq-section';
+import { CtaSection } from '@/components/sections/cta-section';
 
 export default function Home({
   searchParams,
@@ -17,14 +19,16 @@ export default function Home({
   const t = translations[lang];
 
   return (
-    <div className="flex min-h-screen flex-col bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
+    <div className="flex min-h-screen flex-col bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
       <Header lang={lang} t={t.header} />
       <main className="flex-1">
         <HeroSection t={t.hero} />
-        <AboutSection t={t.about} />
+        <TrustIndicators t={t.trustIndicators} />
         <ServicesSection t={t.services} />
+        <AboutSection t={t.about} />
         <TestSection t={t.test} />
-        <SocialValuesSection t={t.socialValues} />
+        <FaqSection t={t.faq} />
+        <CtaSection t={t.cta} />
         <ContactSection t={t.contact} />
       </main>
       <Footer t={t.footer} />

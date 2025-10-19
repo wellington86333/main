@@ -1,30 +1,57 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'ProfessionalService',
-  name: 'Wellington Brito Psicólogo',
-  image: PlaceHolderImages.find(img => img.id === 'analysis')?.imageUrl || '',
-  description:
-    'Psicólogo clínico especializado em Psicanálise. Atendimento online para brasileiros no Brasil e no exterior, com valores sociais e negociação acessível.',
-  telephone: '+5581996903004',
-  email: 'Wellington.brito@rocketmail.com',
-  areaServed: ['Brasil', 'Brasileiros no exterior'],
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Recife',
-    addressRegion: 'PE',
-    addressCountry: 'BR',
-  },
-  url: 'https://wellingtonbritopsi.com',
+const seoData = {
+  title: "PsiWell | Psicologia Online com Teste Gratuito de Saúde Mental",
+  description: "PsiWell oferece psicoterapia online com profissionais qualificados. Faça nosso teste gratuito para avaliar sua necessidade de terapia e cuide da sua saúde mental com confidencialidade e apoio profissional.",
+  keywords: "psicologia online, terapia online, psicólogo online, saúde mental, teste de depressão, ansiedade, bem-estar emocional, psicoterapia, apoio psicológico, clínica de psicologia",
+  url: "https://psiwell.com.br", // Replace with your actual domain
 };
 
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "PsiWell - Psicologia Online",
+  "description": "Clínica de psicologia online oferecendo terapia com profissionais qualificados e teste gratuito de saúde mental.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "BR"
+  },
+  "telephone": "+5581996903004", // Replace with actual phone
+  "url": seoData.url,
+  "sameAs": ["https://wa.me/5581996903004"], // Replace with actual whatsapp number
+  "medicalSpecialty": "Psychology",
+  "offers": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Service",
+      "name": "Psicoterapia Online"
+    }
+  }
+};
+
+
 export const metadata: Metadata = {
-  title: 'PsiWell - Wellington Brito | Psicólogo Clínico',
-  description: jsonLd.description,
+  title: seoData.title,
+  description: seoData.description,
+  keywords: seoData.keywords,
+  authors: [{ name: 'PsiWell' }],
+  robots: 'index, follow',
+  openGraph: {
+    title: seoData.title,
+    description: seoData.description,
+    type: 'website',
+    url: seoData.url,
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: seoData.title,
+    description: seoData.description,
+  },
+  alternates: {
+    canonical: seoData.url,
+  }
 };
 
 export default function RootLayout({
@@ -43,7 +70,7 @@ export default function RootLayout({
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
         />
       </head>
       <body className="font-body antialiased">
