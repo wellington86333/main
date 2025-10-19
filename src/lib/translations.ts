@@ -9,7 +9,7 @@ export const translations = {
     hero: {
       mainTitle: "Wellington Brito - Psicólogo",
       crp: "CRP 02/15189",
-      subtitle: "Atendimento Psicanalítico Online",
+      subtitle: "Atendimento psicológico fundamentado na psicanálise",
       audience: "Para brasileiros no Brasil e no exterior",
       ctaButton: "Agende sua sessão",
     },
@@ -66,7 +66,7 @@ export const translations = {
     hero: {
       mainTitle: "Wellington Brito - Psychologist",
       crp: "CRP 02/15189",
-      subtitle: "Online Psychoanalytic Care",
+      subtitle: "Psychological care based on psychoanalysis",
       audience: "For Brazilians in Brazil and abroad",
       ctaButton: "Schedule your session",
     },
