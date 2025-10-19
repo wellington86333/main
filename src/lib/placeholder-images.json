@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "analysis",
+      "description": "Uma ilustração abstrata representando a psicanálise, com formas orgânicas e cores suaves.",
+      "imageUrl": "https://images.unsplash.com/photo-1753868179681-c2f4935a500a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHBzeWNob2FuYWx5c2lzfGVufDB8fHx8MTc2MDg0NjM3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract psychoanalysis"
+    },
+    {
+      "id": "therapy",
+      "description": "Uma imagem simbólica da terapia individual, mostrando duas cadeiras frente a frente em um ambiente calmo.",
+      "imageUrl": "https://images.unsplash.com/photo-1604881991664-593b31b88488?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0aGVyYXB5JTIwc2Vzc2lvbnxlbnwwfHx8fDE3NjA4NDYzNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "therapy session"
+    },
+    {
+      "id": "online",
+      "description": "Uma pessoa em uma videochamada em seu laptop, representando o atendimento online.",
+      "imageUrl": "https://images.unsplash.com/photo-1616531770192-6eaea74c2456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvbmxpbmUlMjBtZWV0aW5nfGVufDB8fHx8MTc2MDg0NjM3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "online meeting"
+    }
+  ]
 }
