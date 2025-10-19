@@ -21,7 +21,7 @@
     {
       "id": "profile",
       "description": "Foto de perfil de Wellington Brito.",
-      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzIxMjI0NzUxfDA&ixlib=rb-4.1.0&q=80&w=240",
+      "imageUrl": "https://images.unsplash.com/photo-1595152452585-d85608c0f0a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzIxMjI0NzUxfDA&ixlib=rb-4.1.0&q=80&w=800",
       "imageHint": "male portrait"
     }
   ]
