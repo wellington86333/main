@@ -6,6 +6,7 @@ import { ServicesSection } from '@/components/sections/services';
 import { SocialValuesSection } from '@/components/sections/social-values';
 import { ContactSection } from '@/components/sections/contact-section';
 import { translations } from '@/lib/translations';
+import { TestSection } from '@/components/sections/test-section';
 
 export default function Home({
   searchParams,
@@ -16,12 +17,13 @@ export default function Home({
   const t = translations[lang];
 
   return (
-    <div className="flex min-h-screen flex-col bg-background">
+    <div className="flex min-h-screen flex-col bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
       <Header lang={lang} t={t.header} />
       <main className="flex-1">
         <HeroSection t={t.hero} />
         <AboutSection t={t.about} />
         <ServicesSection t={t.services} />
+        <TestSection t={t.test} />
         <SocialValuesSection t={t.socialValues} />
         <ContactSection t={t.contact} />
       </main>

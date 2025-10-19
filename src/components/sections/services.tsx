@@ -14,9 +14,9 @@ type ServicesProps = {
 };
 
 const serviceIcons = [
-  <BrainCircuit key="1" className="h-8 w-8 text-accent" />,
-  <User key="2" className="h-8 w-8 text-accent" />,
-  <Laptop key="3" className="h-8 w-8 text-accent" />,
+  <BrainCircuit key="1" className="h-8 w-8 text-primary" />,
+  <User key="2" className="h-8 w-8 text-primary" />,
+  <Laptop key="3" className="h-8 w-8 text-primary" />,
 ];
 
 const imageIds = ['analysis', 'therapy', 'online'];
@@ -92,9 +92,9 @@ const platformIcons = [
 
 export function ServicesSection({ t }: ServicesProps) {
   return (
-    <section id="services" className="bg-secondary py-16 sm:py-24">
+    <section id="services" className="bg-white/70 backdrop-blur-sm py-16 sm:py-24">
       <div className="container">
-        <h2 className="text-3xl font-bold text-center mb-12 font-headline sm:text-4xl">
+        <h2 className="text-3xl font-bold text-center mb-12 font-headline sm:text-4xl text-gray-800">
           {t.title}
         </h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -106,7 +106,7 @@ export function ServicesSection({ t }: ServicesProps) {
             return (
               <Card
                 key={service.title}
-                className="overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 group"
+                className="overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 group bg-white/70 backdrop-blur-sm"
               >
                 {image && (
                   <div className="aspect-w-16 aspect-h-9 overflow-hidden">
@@ -122,7 +122,9 @@ export function ServicesSection({ t }: ServicesProps) {
                 )}
                 <CardHeader>
                   <div className="flex items-center gap-4">
-                    {serviceIcons[index]}
+                     <div className={`w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4`}>
+                      {serviceIcons[index]}
+                    </div>
                     <CardTitle className="font-headline text-2xl">
                       {service.title}
                     </CardTitle>
