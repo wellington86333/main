@@ -3,17 +3,18 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 const seoData = {
-  title: "PsiWell | Psicologia Online com Teste Gratuito de Saúde Mental",
-  description: "PsiWell oferece psicoterapia online com profissionais qualificados. Faça nosso teste gratuito para avaliar sua necessidade de terapia e cuide da sua saúde mental com confidencialidade e apoio profissional.",
-  keywords: "psicologia online, terapia online, psicólogo online, saúde mental, teste de depressão, ansiedade, bem-estar emocional, psicoterapia, apoio psicológico, clínica de psicologia",
+  title: "PsiWell | Wellington Brito - Psicologia Online com Teste Gratuito",
+  description: "Wellington Brito oferece psicoterapia online com atendimento qualificado. Faça um teste gratuito para avaliar sua necessidade de terapia e cuide da sua saúde mental.",
+  keywords: "psicologia online, terapia online, psicólogo online, saúde mental, Wellington Brito, teste de depressão, ansiedade, bem-estar emocional, psicoterapia, apoio psicológico",
   url: "https://psiwell.com.br", // Replace with your actual domain
 };
 
 const schemaData = {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "PsiWell - Psicologia Online",
-  "description": "Clínica de psicologia online oferecendo terapia com profissionais qualificados e teste gratuito de saúde mental.",
+  "@type": "Person",
+  "name": "Wellington Brito",
+  "jobTitle": "Psicólogo Clínico",
+  "description": "Psicólogo clínico oferecendo terapia online com base na Psicanálise e teste gratuito de saúde mental.",
   "address": {
     "@type": "PostalAddress",
     "addressCountry": "BR"
@@ -21,14 +22,7 @@ const schemaData = {
   "telephone": "+5581996903004", // Replace with actual phone
   "url": seoData.url,
   "sameAs": ["https://wa.me/5581996903004"], // Replace with actual whatsapp number
-  "medicalSpecialty": "Psychology",
-  "offers": {
-    "@type": "Offer",
-    "itemOffered": {
-      "@type": "Service",
-      "name": "Psicoterapia Online"
-    }
-  }
+  "knowsAbout": "Psicanálise, Terapia Online, Saúde Mental, Ansiedade, Depressão"
 };
 
 
@@ -36,7 +30,7 @@ export const metadata: Metadata = {
   title: seoData.title,
   description: seoData.description,
   keywords: seoData.keywords,
-  authors: [{ name: 'PsiWell' }],
+  authors: [{ name: 'Wellington Brito' }],
   robots: 'index, follow',
   openGraph: {
     title: seoData.title,

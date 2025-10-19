@@ -10,8 +10,8 @@ export const translations = {
     },
     hero: {
       mainTitle: "Cuidar da sua mente é essencial para viver bem",
-      crp: "CRP 02/15189",
-      subtitle: "PsiWell oferece psicoterapia online com profissionais qualificados, confidencialidade total e horários flexíveis. Comece sua jornada para uma vida mais equilibrada e feliz.",
+      crp: "Wellington Brito | CRP 02/15189",
+      subtitle: "Ofereço psicoterapia online com atendimento qualificado, confidencialidade total e horários flexíveis. Comece sua jornada para uma vida mais equilibrada e feliz.",
       audience: "Para brasileiros no Brasil e no exterior",
       ctaButton: "Teste Gratuito de Saúde Mental",
       ctaButtonSecondary: "Agendar Consulta"
@@ -26,7 +26,7 @@ export const translations = {
         description: "Atendimento personalizado",
       },
       qualifiedProfessionals: {
-        title: "Profissionais Qualificados",
+        title: "Profissional Qualificado",
         description: "CRP registrado e experiência",
       },
       fiveStarReviews: {
@@ -35,13 +35,13 @@ export const translations = {
       },
     },
     about: {
-      title: "Sobre o PsiWell",
-      subtitle: "Somos uma clínica de psicologia comprometida com a promoção da saúde mental e o bem-estar integral através de atendimento online de qualidade.",
-      missionTitle: "Nossa Missão",
-      missionText1: "Proporcionar um espaço terapêutico seguro, acolhedor e livre de julgamentos, onde cada indivíduo possa explorar suas emoções, superar desafios e desenvolver estratégias para uma vida mais plena e equilibrada.",
-      missionText2: "Utilizamos abordagens baseadas em evidências científicas, combinadas com empatia e compreensão profunda das necessidades únicas de cada paciente.",
-      crpTitle: "Profissionais CRP Registrados",
-      crpText: "Todos nossos psicólogos são devidamente registrados",
+      title: "Sobre Mim",
+      subtitle: "Sou Wellington Brito, psicólogo clínico com formação baseada na Psicanálise, comprometido com a promoção da saúde mental e o bem-estar integral.",
+      missionTitle: "Meu Compromisso",
+      missionText1: "Meu compromisso é proporcionar um espaço terapêutico seguro, acolhedor e livre de julgamentos, onde você possa explorar suas emoções, superar desafios e desenvolver estratégias para uma vida mais plena e equilibrada.",
+      missionText2: "Utilizo abordagens baseadas em evidências científicas, combinadas com empatia e uma escuta atenta às necessidades únicas de cada paciente.",
+      crpTitle: "Psicólogo com CRP Ativo",
+      crpText: "Atendimento profissional e ético, seguindo todas as diretrizes do Conselho Federal de Psicologia.",
       text: "Sou Wellington Brito, psicólogo clínico com formação baseada na Psicanálise. Meu trabalho é oferecer um espaço de escuta e reflexão, ajudando você a lidar com questões emocionais, conflitos internos e a buscar maior autoconhecimento. Atendo de forma online, em plataformas seguras e de fácil acesso.",
     },
     services: {
@@ -63,24 +63,24 @@ export const translations = {
     },
     cta: {
       title: "Pronto para começar sua jornada de bem-estar?",
-      subtitle: "Não espere mais para cuidar da sua saúde mental. Nossa equipe está pronta para te apoiar com empatia e profissionalismo.",
+      subtitle: "Não espere mais para cuidar da sua saúde mental. Estou pronto para te apoiar com empatia e profissionalismo.",
       ctaButton: "Faça o Teste Gratuito",
-      ctaButtonSecondary: "Falar com um Psicólogo",
+      ctaButtonSecondary: "Falar Comigo",
     },
     faq: {
       title: "Perguntas Frequentes",
       questions: [
         {
           question: "Como funciona a terapia online?",
-          answer: "Utilizamos plataformas seguras e criptografadas para garantir sua privacidade. As sessões são realizadas por videochamada com horários flexíveis.",
+          answer: "Utilizo plataformas seguras e criptografadas para garantir sua privacidade. As sessões são realizadas por videochamada com horários flexíveis.",
         },
         {
           question: "O teste de saúde mental é confiável?",
-          answer: "Nosso teste é baseado em escalas validadas internacionalmente e serve como orientação inicial. Para diagnóstico completo, recomendamos consulta com profissional.",
+          answer: "O teste é baseado em escalas validadas internacionalmente e serve como orientação inicial. Para um diagnóstico completo, a consulta com um psicólogo é essencial.",
         },
         {
           question: "Quanto custa uma sessão?",
-          answer: "Oferecemos planos acessíveis com valores que variam conforme a frequência e duração das sessões. Consulte nossos planos pelo WhatsApp.",
+          answer: "Ofereço pacotes de sessões com valores acessíveis. Entre em contato pelo WhatsApp para saber mais sobre os planos.",
         }
       ]
     },
@@ -110,17 +110,17 @@ export const translations = {
             { label: "Política de Privacidade", href: "#" }
         ]
       },
-      copyright: "© 2025 PsiWell. Todos os direitos reservados. CRP: [CRP]",
-      disclaimer: "Atendimento psicológico online com profissionais registrados no Conselho Regional de Psicologia."
+      copyright: "© 2025 Wellington Brito. Todos os direitos reservados. CRP: 02/15189",
+      disclaimer: "Atendimento psicológico online realizado por profissional registrado no Conselho Regional de Psicologia."
     },
     test: {
       title: "Teste Gratuito de Necessidade de Psicoterapia",
       badge: "100% Gratuito • Resultado Imediato • Totalmente Anônimo",
-      description: "Este teste rápido e confidencial ajuda a avaliar seu estado emocional atual e identificar se pode se beneficiar de apoio psicológico profissional.",
+      description: "Este teste rápido e confidencial ajuda a avaliar seu estado emocional atual e identificar se você pode se beneficiar de apoio psicológico profissional.",
       submitButton: "Ver Meu Resultado",
       pleaseAnswer: "Por favor, responda todas as perguntas antes de continuar.",
       resultTitle: "Seu Nível de Necessidade:",
-      resultDisclaimer: "Este teste é apenas uma orientação inicial baseada em escalas validadas. Para uma avaliação completa e personalizada, recomendamos agendar uma consulta com um de nossos psicólogos qualificados.",
+      resultDisclaimer: "Este teste é apenas uma orientação inicial. Para uma avaliação completa e personalizada, recomendo agendar uma consulta.",
       scheduleButton: "Agendar Consulta",
       retakeButton: "Fazer Novo Teste",
       recommendations: {
@@ -134,7 +134,7 @@ export const translations = {
         },
         high: {
           level: "Elevado",
-          message: "Seus resultados indicam sintomas significativos. Recomendamos fortemente que você procure ajuda profissional o mais breve possível.",
+          message: "Seus resultados indicam sintomas significativos. Recomendo fortemente que você procure ajuda profissional o mais breve possível.",
         },
       },
       questions: [
@@ -155,7 +155,7 @@ export const translations = {
             { value: 0, text: "Nunca" },
             { value: 1, text: "Raramente" },
             { value: 2, text: "Frequentemente" },
-            { value: 3, text: "Sempre" }
+            { value: 3, "text": "Sempre" }
           ]
         },
         {
@@ -232,8 +232,8 @@ export const translations = {
     },
     hero: {
         mainTitle: "Caring for your mind is essential to living well",
-        crp: "CRP 02/15189",
-        subtitle: "PsiWell offers online psychotherapy with qualified professionals, total confidentiality, and flexible hours. Start your journey to a more balanced and happy life.",
+        crp: "Wellington Brito | CRP 02/15189",
+        subtitle: "I offer online psychotherapy with qualified care, total confidentiality, and flexible hours. Start your journey to a more balanced and happy life.",
         audience: "For Brazilians in Brazil and abroad",
         ctaButton: "Free Mental Health Test",
         ctaButtonSecondary: "Schedule a Consultation"
@@ -248,7 +248,7 @@ export const translations = {
             description: "Personalized service",
         },
         qualifiedProfessionals: {
-            title: "Qualified Professionals",
+            title: "Qualified Professional",
             description: "Registered CRP and experience",
         },
         fiveStarReviews: {
@@ -257,13 +257,13 @@ export const translations = {
         },
     },
     about: {
-        title: "About PsiWell",
-        subtitle: "We are a psychology clinic committed to promoting mental health and integral well-being through quality online care.",
-        missionTitle: "Our Mission",
-        missionText1: "To provide a safe, welcoming, and judgment-free therapeutic space where each individual can explore their emotions, overcome challenges, and develop strategies for a fuller and more balanced life.",
-        missionText2: "We use evidence-based approaches, combined with empathy and a deep understanding of the unique needs of each patient.",
-        crpTitle: "CRP Registered Professionals",
-        crpText: "All our psychologists are duly registered",
+        title: "About Me",
+        subtitle: "I am Wellington Brito, a clinical psychologist with a background in Psychoanalysis, committed to promoting mental health and integral well-being.",
+        missionTitle: "My Commitment",
+        missionText1: "My commitment is to provide a safe, welcoming, and judgment-free therapeutic space where you can explore your emotions, overcome challenges, and develop strategies for a fuller and more balanced life.",
+        missionText2: "I use evidence-based approaches, combined with empathy and an attentive listening to the unique needs of each patient.",
+        crpTitle: "Psychologist with Active CRP",
+        crpText: "Professional and ethical service, following all guidelines of the Federal Council of Psychology.",
         text: "I am Wellington Brito, a clinical psychologist with a background in Psychoanalysis. My work is to offer a space for listening and reflection, helping you deal with emotional issues, internal conflicts, and seek greater self-knowledge. I provide online services on secure and easily accessible platforms.",
     },
     services: {
@@ -285,24 +285,24 @@ export const translations = {
     },
     cta: {
         title: "Ready to start your wellness journey?",
-        subtitle: "Don't wait any longer to take care of your mental health. Our team is ready to support you with empathy and professionalism.",
+        subtitle: "Don't wait any longer to take care of your mental health. I am ready to support you with empathy and professionalism.",
         ctaButton: "Take the Free Test",
-        ctaButtonSecondary: "Talk to a Psychologist",
+        ctaButtonSecondary: "Talk to Me",
     },
     faq: {
         title: "Frequently Asked Questions",
         questions: [
             {
                 question: "How does online therapy work?",
-                answer: "We use secure, encrypted platforms to ensure your privacy. Sessions are conducted via video call with flexible scheduling.",
+                answer: "I use secure, encrypted platforms to ensure your privacy. Sessions are conducted via video call with flexible scheduling.",
             },
             {
                 question: "Is the mental health test reliable?",
-                answer: "Our test is based on internationally validated scales and serves as an initial guide. For a full diagnosis, we recommend a consultation with a professional.",
+                answer: "The test is based on internationally validated scales and serves as an initial guide. For a full diagnosis, a consultation with a psychologist is essential.",
             },
             {
                 question: "How much does a session cost?",
-                answer: "We offer affordable plans with prices that vary according to the frequency and duration of the sessions. Check our plans on WhatsApp.",
+                answer: "I offer affordable session packages. Contact me on WhatsApp to learn more about the plans.",
             }
         ]
     },
@@ -332,8 +332,8 @@ export const translations = {
                 { label: "Privacy Policy", href: "#" }
             ]
         },
-        copyright: "© 2025 PsiWell. All rights reserved. CRP: [CRP]",
-        disclaimer: "Online psychological care with professionals registered with the Regional Council of Psychology."
+        copyright: "© 2025 Wellington Brito. All rights reserved. CRP: 02/15189",
+        disclaimer: "Online psychological care provided by a professional registered with the Regional Council of Psychology."
     },
     test: {
         title: "Free Psychotherapy Needs Test",
@@ -342,8 +342,8 @@ export const translations = {
         submitButton: "View My Result",
         pleaseAnswer: "Please answer all questions before continuing.",
         resultTitle: "Your Need Level:",
-        resultDisclaimer: "This test is only an initial guide based on validated scales. For a complete and personalized assessment, we recommend scheduling a consultation with one of our qualified psychologists.",
-        scheduleButton: "Schedule a Consultation",
+        resultDisclaimer: "This test is only an initial guide. For a complete and personalized assessment, I recommend scheduling a consultation.",
+        scheduleButton: "Schedule Consultation",
         retakeButton: "Retake Test",
         recommendations: {
             low: {
@@ -356,7 +356,7 @@ export const translations = {
             },
             high: {
                 level: "High",
-                message: "Your results indicate significant symptoms. We strongly recommend that you seek professional help as soon as possible.",
+                message: "Your results indicate significant symptoms. I strongly recommend that you seek professional help as soon as possible.",
             },
         },
         questions: [

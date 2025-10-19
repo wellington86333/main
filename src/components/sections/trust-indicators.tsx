@@ -18,7 +18,7 @@ export function TrustIndicators({ t }: TrustIndicatorsProps) {
       <div className="container">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {indicators.map((indicator, index) => (
-            <div key={index} className="bg-white/70 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-slate-200/50 text-center">
+            <div key={index} className="bg-white/70 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-slate-200/50 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
               {indicator.icon}
               <h3 className="font-semibold text-slate-800 mb-1">{indicator.title}</h3>
               <p className="text-sm text-slate-600">{indicator.description}</p>
