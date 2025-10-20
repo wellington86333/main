@@ -6,9 +6,9 @@ type ServicesProps = {
   t: Translations['services'];
 };
 
-const serviceImages = PlaceHolderImages.filter(img => 
-  img.id === 'therapy' || img.id === 'freud' || img.id === 'divan'
-);
+const serviceImageIds = ['therapy', 'freud', 'divan'];
+const serviceImages = serviceImageIds.map(id => PlaceHolderImages.find(img => img.id === id));
+
 
 export function ServicesSection({ t }: ServicesProps) {
   return (
