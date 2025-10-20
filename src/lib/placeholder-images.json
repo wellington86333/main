@@ -1,10 +1,10 @@
 {
   "placeholderImages": [
     {
-      "id": "analysis",
-      "description": "Uma ilustração abstrata representando a psicanálise, com formas orgânicas e cores suaves.",
-      "imageUrl": "https://images.unsplash.com/photo-1753868179681-c2f4935a500a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHBzeWNob2FuYWx5c2lzfGVufDB8fHx8MTc2MDg0NjM3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract psychoanalysis"
+      "id": "freud",
+      "description": "Uma estátua de Sigmund Freud, o pai da psicanálise.",
+      "imageUrl": "https://images.unsplash.com/photo-1593368345513-4a65494a3779?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxTaWdtdW5kJTIwRnJldWR8ZW58MHx8fHwxNzYwODQ3MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Sigmund Freud"
     },
     {
       "id": "therapy",
@@ -13,10 +13,10 @@
       "imageHint": "therapy session"
     },
     {
-      "id": "online",
-      "description": "Uma pessoa em uma videochamada em seu laptop, representando o atendimento online.",
-      "imageUrl": "https://images.unsplash.com/photo-1616531770192-6eaea74c2456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvbmxpbmUlMjBtZWV0aW5nfGVufDB8fHx8MTc2MDg0NjM3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "online meeting"
+      "id": "divan",
+      "description": "Um divã de psicanálise em uma sala bem iluminada, simbolizando o processo terapêutico.",
+      "imageUrl": "https://images.unsplash.com/photo-1505826759037-4f6b8a1433d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwc3ljaG9hbmFseXNpcyUyMGRpdmFufGVufDB8fHx8MTc2MDg0NzAwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "psychoanalysis divan"
     },
     {
       "id": "profile",
