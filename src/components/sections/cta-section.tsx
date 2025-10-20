@@ -11,7 +11,7 @@ export function CtaSection({ t }: CtaSectionProps) {
     <section className="py-16 sm:py-24">
         <div className="container max-w-4xl mx-auto">
              <div className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-3xl p-12 text-white text-center">
-              <h3 className="text-3xl font-bold mb-4 font-headline">{t.title}</h3>
+              <h2 className="text-3xl font-bold mb-4 font-headline">{t.title}</h2>
               <p className="text-indigo-100 mb-8 text-lg">
                 {t.subtitle}
               </p>

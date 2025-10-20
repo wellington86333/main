@@ -38,7 +38,7 @@ export function Footer({ t }: FooterProps) {
             <h4 className="text-lg font-semibold mb-6">{t.services.title}</h4>
             <ul className="space-y-3 text-slate-400">
               {t.services.items.map((item, index) => (
-                <li key={index}><a href="#" className="hover:text-white transition-colors">{item}</a></li>
+                <li key={index}><Link href="#services" className="hover:text-white transition-colors">{item}</Link></li>
               ))}
             </ul>
           </div>
