@@ -22,7 +22,7 @@ export function CtaSection({ t }: CtaSectionProps) {
                   </Link>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="border-2 border-white text-white h-auto px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-colors bg-transparent">
-                  <a href="https://wa.me/5581996903004" target="_blank" rel="noopener noreferrer nofollow">
+                  <a href="https://wa.me/447512130453" target="_blank" rel="noopener noreferrer nofollow">
                     {t.ctaButtonSecondary}
                   </a>
                 </Button>

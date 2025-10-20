@@ -51,7 +51,7 @@ export function Header({ lang, t }: HeaderProps) {
              <LanguageSwitcher lang={lang} />
            </div>
            <a 
-              href="https://wa.me/5581996903004" 
+              href="https://wa.me/447512130453" 
               target="_blank" 
               rel="noopener noreferrer nofollow"
               className="hidden md:flex bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-xl font-medium items-center space-x-2 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
@@ -87,7 +87,7 @@ export function Header({ lang, t }: HeaderProps) {
               </Link>
             ))}
              <a 
-                href="https://wa.me/5581996903004" 
+                href="https://wa.me/447512130453" 
                 target="_blank" 
                 rel="noopener noreferrer nofollow"
                 className="mt-2 px-4 py-3 bg-green-500 hover:bg-green-600 text-white rounded-lg font-medium flex items-center space-x-2 transition-colors"

@@ -161,7 +161,7 @@ export function TestSection({ t }: TestSectionProps) {
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
                   <Button asChild size="lg" className="bg-green-500 hover:bg-green-600 text-white h-auto px-8 py-4 rounded-xl font-semibold flex items-center justify-center space-x-3 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                    <a href="https://wa.me/5581996903004" target="_blank" rel="noopener noreferrer nofollow">
+                    <a href="https://wa.me/447512130453" target="_blank" rel="noopener noreferrer nofollow">
                       <AlertTriangle className="mr-2 h-4 w-4" />
                       {t.scheduleButton}
                     </a>

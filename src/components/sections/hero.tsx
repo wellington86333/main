@@ -29,7 +29,7 @@ export function HeroSection({ t }: HeroProps) {
             </Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="bg-white text-slate-800 px-8 py-4 rounded-xl font-semibold border-2 border-slate-200 hover:border-indigo-300 transition-all duration-300 shadow-lg hover:shadow-xl">
-             <a href="https://wa.me/5581996903004" target="_blank" rel="noopener noreferrer nofollow">
+             <a href="https://wa.me/447512130453" target="_blank" rel="noopener noreferrer nofollow">
                <Phone className="mr-2 h-4 w-4" />
               {t.ctaButtonSecondary}
             </a>

@@ -23,7 +23,7 @@ export function Footer({ t }: FooterProps) {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://wa.me/5581996903004" 
+                href="https://wa.me/447512130453" 
                 target="_blank" 
                 rel="noopener noreferrer nofollow"
                 className="flex items-center space-x-2 text-slate-300 hover:text-white transition-colors"

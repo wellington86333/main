@@ -19,9 +19,9 @@ const schemaData = {
     "@type": "PostalAddress",
     "addressCountry": "BR"
   },
-  "telephone": "+5581996903004", // Replace with actual phone
+  "telephone": "+447512130453", // Replace with actual phone
   "url": seoData.url,
-  "sameAs": ["https://wa.me/5581996903004"], // Replace with actual whatsapp number
+  "sameAs": ["https://wa.me/447512130453"], // Replace with actual whatsapp number
   "knowsAbout": "Psicanálise, Terapia Online, Saúde Mental, Ansiedade, Depressão"
 };
 
