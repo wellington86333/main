@@ -1,11 +1,12 @@
+
 import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 const seoData = {
-  title: "PsiWell | Wellington Brito - Psicologia Online com Teste Gratuito",
-  description: "Wellington Brito oferece psicoterapia online com atendimento qualificado. Faça um teste gratuito para avaliar sua necessidade de terapia e cuide da sua saúde mental.",
-  keywords: "psicologia online, terapia online, psicólogo online, saúde mental, Wellington Brito, teste de depressão, ansiedade, bem-estar emocional, psicoterapia, apoio psicológico",
+  title: "PsiWell | Wellington Brito - Psicologia Online para Brasileiros",
+  description: "Wellington Brito oferece psicoterapia online em português para brasileiros no exterior. Cuide da sua saúde mental com um profissional qualificado.",
+  keywords: "psicólogo para brasileiros no exterior, terapia online em português, saúde mental para expatriados, psicólogo brasileiro na Europa, Wellington Brito, psicologia online",
   url: "https://psiwell.com.br", // Replace with your actual domain
 };
 
@@ -14,7 +15,7 @@ const schemaData = {
   "@type": "Person",
   "name": "Wellington Brito",
   "jobTitle": "Psicólogo Clínico",
-  "description": "Psicólogo clínico oferecendo terapia online com base na Psicanálise e teste gratuito de saúde mental.",
+  "description": "Psicólogo clínico brasileiro oferecendo terapia online em português para brasileiros vivendo no exterior.",
   "address": {
     "@type": "PostalAddress",
     "addressCountry": "BR"
@@ -22,7 +23,10 @@ const schemaData = {
   "telephone": "+447512130453",
   "url": seoData.url,
   "sameAs": ["https://wa.me/447512130453"],
-  "knowsAbout": "Psicanálise, Terapia Online, Saúde Mental, Ansiedade, Depressão"
+  "knowsAbout": "Psicanálise, Terapia Online, Saúde Mental, Ansiedade, Depressão, Expatriação",
+  "serviceArea": [
+    "BR", "PT", "GB", "ES", "FR", "DE", "IT", "US"
+  ]
 };
 
 
@@ -37,6 +41,8 @@ export const metadata: Metadata = {
     description: seoData.description,
     type: 'website',
     url: seoData.url,
+    locale: 'pt_BR',
+    alternateLocale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
@@ -45,6 +51,17 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: seoData.url,
+    languages: {
+      'pt-BR': `${seoData.url}?lang=pt`,
+      'en': `${seoData.url}?lang=en`,
+      'pt-PT': `${seoData.url}?lang=pt`,
+      'es-ES': `${seoData.url}?lang=en`,
+      'fr-FR': `${seoData.url}?lang=en`,
+      'de-DE': `${seoData.url}?lang=en`,
+      'it-IT': `${seoData.url}?lang=en`,
+      'en-GB': `${seoData.url}?lang=en`,
+      'x-default': `${seoData.url}?lang=pt`,
+    },
   }
 };
 

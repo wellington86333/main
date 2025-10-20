@@ -12,7 +12,7 @@ export const translations = {
     hero: {
       mainTitle: "Cuidar da sua mente é essencial para viver bem",
       crp: "Wellington Brito | CRP 02/15189",
-      subtitle: "Ofereço psicoterapia online com atendimento qualificado, confidencialidade total e horários flexíveis. Comece sua jornada para uma vida mais equilibrada e feliz.",
+      subtitle: "Ofereço psicoterapia online em português para brasileiros no exterior, com atendimento qualificado, confidencialidade total e horários flexíveis.",
       audience: "Para brasileiros no Brasil e no exterior",
       ctaButton: "Teste Gratuito de Saúde Mental",
       ctaButtonSecondary: "Agendar Consulta"
@@ -43,7 +43,7 @@ export const translations = {
       missionText2: "Atendo adultos e jovens em questões como ansiedade, depressão, angústia existencial, relacionamentos, autoestima, luto, estresse e dificuldades emocionais diversas. Cada encontro é construído como um espaço seguro para que o sujeito possa se ouvir, ressignificar experiências e desenvolver novos caminhos em direção a uma vida mais autêntica e equilibrada.",
       crpTitle: "Psicólogo com CRP Ativo",
       crpText: "Atendimento profissional e ético, seguindo todas as diretrizes do Conselho Federal de Psicologia.",
-      text: "Sou Wellington Brito, psicólogo clínico com formação baseada na Psicanálise. Meu trabalho é oferecer um espaço de escuta e reflexão, ajudando você a lidar com questões emocionais, conflitos internos e a buscar maior autoconhecimento. Atendo de forma online, em plataformas seguras e de fácil acesso.",
+      text: "Meu compromisso é oferecer um processo terapêutico fundamentado na psicanálise, que respeite a singularidade de cada pessoa e abra espaço para a reconstrução de sentidos, elaboração do inconsciente e fortalecimento da saúde mental.",
     },
     services: {
       title: "Serviços",
@@ -112,7 +112,7 @@ export const translations = {
         ]
       },
       copyright: "© 2025 Wellington Brito. Todos os direitos reservados. CRP: 02/15189",
-      disclaimer: "Atendimento psicológico online realizado por profissional registrado no Conselho Regional de Psicologia."
+      disclaimer: "Atendimento psicológico online realizado por profissional registrado no Conselho Federal de Psicologia."
     },
     test: {
       title: "Teste Gratuito de Necessidade de Psicoterapia",
@@ -234,7 +234,7 @@ export const translations = {
     hero: {
         mainTitle: "Caring for your mind is essential to living well",
         crp: "Wellington Brito | CRP 02/15189",
-        subtitle: "I offer online psychotherapy with qualified care, total confidentiality, and flexible hours. Start your journey to a more balanced and happy life.",
+        subtitle: "I offer online psychotherapy in Portuguese for Brazilians abroad, with qualified care, total confidentiality, and flexible hours.",
         audience: "For Brazilians in Brazil and abroad",
         ctaButton: "Free Mental Health Test",
         ctaButtonSecondary: "Schedule a Consultation"
@@ -259,13 +259,13 @@ export const translations = {
     },
     about: {
         title: "About Me",
-        subtitle: "I am Wellington Brito, a Clinical Psychologist (CRP 02/15189) specializing in individual sessions based on the psychoanalytic approach. My practice focuses on comprehensive mental health care, offering a space for qualified, ethical, and welcoming listening.",
+        subtitle: "I am Wellington Brito, a Clinical Psychologist (CRP 02/15189), specializing in individual sessions based on the psychoanalytic approach. My practice focuses on comprehensive mental health care, offering a space for qualified, ethical, and welcoming listening.",
         missionTitle: "My Commitment to Psychoanalysis",
         missionText1: "In my practice, I use psychoanalytic psychotherapy, a process that promotes self-knowledge, the working through of internal conflicts, and healing through words. Psychoanalysis helps to understand the origins of psychological suffering, going beyond immediate symptom relief and enabling profound, lasting transformations in how one lives and relates to others.",
         missionText2: "I assist adults and young people with issues such as anxiety, depression, existential dread, relationships, self-esteem, grief, stress, and various emotional difficulties. Each session is a safe space for you to listen to yourself, re-signify experiences, and find new paths toward a more authentic and balanced life.",
         crpTitle: "Psychologist with Active CRP",
         crpText: "Professional and ethical service, following all guidelines of the Federal Council of Psychology.",
-        text: "I am Wellington Brito, a clinical psychologist with a background in Psychoanalysis. My work is to offer a space for listening and reflection, helping you deal with emotional issues, internal conflicts, and seek greater self-knowledge. I provide online services on secure and easily accessible platforms.",
+        text: "My commitment is to offer a therapeutic process based on psychoanalysis that respects the uniqueness of each person and opens space for the reconstruction of meanings, the elaboration of the unconscious, and the strengthening of mental health.",
     },
     services: {
         title: "Services",
