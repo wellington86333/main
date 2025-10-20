@@ -21,6 +21,7 @@ import {
 } from '@/components/ui/form';
 import type { Translations } from '@/lib/translations';
 import { Send } from 'lucide-react';
+import { Card } from '@/components/ui/card';
 
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: 'O nome deve ter pelo menos 2 caracteres.' }),
@@ -122,21 +123,3 @@ export function ContactForm({ t }: ContactFormProps) {
     </Card>
   );
 }
-
-// Add Card component to scope
-import * as React from 'react';
-import { cn } from '@/lib/utils';
-const Card = React.forwardRef<
-  HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div
-    ref={ref}
-    className={cn(
-      'rounded-lg border bg-card text-card-foreground shadow-sm',
-      className
-    )}
-    {...props}
-  />
-));
-Card.displayName = 'Card';
